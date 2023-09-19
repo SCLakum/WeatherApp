@@ -44,7 +44,7 @@ console.log(data);
     //             wetherIcon = "Source/clouds.png";
     // }
     document.querySelector(".wether-icon").src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
-    document.querySelector("#description").innerHTML = `${data.weather[0].description}`;
+    // document.querySelector("#description").innerHTML = `${data.weather[0].description}`;
 
 }
 
